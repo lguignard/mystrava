@@ -1,0 +1,14 @@
+Les scripts de mysrava sont livrés tels quels.
+Pour fonctionner ils nécessitent plusieurs actions de paramétrage.
+
+1 - Créer une "Application API" dans votre compte Strava (http://www.strava.com)
+2 - A la racine d'installation de mystrava
+			Renommer le fichier strava-config-sample.inc.php en strava-config.inc.php
+3 - Reporter les 3 paramètres de votre application Strava dans le fichier strava-config.inc.php
+4 - Tester la connexion : http://site/mystrava/public_strava.php
+		Vous devriez voir apparaître le résumé des activités "public"
+5 - Tester la connexion : http://site/mystrava/private_strava.html
+		Vous devriez voir apparaître le résumé de l'ensemble de vos activités depuis 
+		le 1 janvier de l'année en cours dans la limite des 200 dernières activités.
+
+En cas de problème il va falloir procéder à une analyse particulière.
